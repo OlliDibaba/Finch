@@ -40,31 +40,5 @@ def practice1():
     robot.setTurn('R', 65, 100)
     robot.setMove('F', 40, 100)
 
-def exercise1l2():
-    print('distance: ', robot.getDistance())
 
-def exercise2l2():
-    print('distance: ', robot.getLight('R'))
-    print('distance: ', robot.getLight('L'))
-    print('distance: ', robot.getButton('A'))
-    print('distance: ', robot.getOrientation())
-    print('distance: ', robot.getEncoder('R'))
-
-
-def exercise3l2():
-    print(type(robot.getLight('R')))
-    print(type(robot.getLight('L')))
-    print(type(robot.getButton('A')))
-    print(type(robot.getOrientation()))
-    print(type(robot.getEncoder('R')))
-
-def exercise4l2():
-    currentDistance = robot.getDistance()
-    print(currentDistance)
-    print(2*currentDistance)
-    print(4*currentDistance)
-
-def exercise5l2():
-    print('difference: ', (robot.getLight('R')))
-    
-exercise5l2()
+practice1()
