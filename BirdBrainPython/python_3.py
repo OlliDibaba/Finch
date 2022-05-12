@@ -4,11 +4,13 @@ from time import sleep
 robot = Finch()
 
 def exercise1():
+    #This turns the beak a red color
     robot.setBeak(100, 0, 0)
     sleep(1)
     robot.setBeak(0, 0, 0)
 
 def exercise2():
+    #This turns the beak purple, cyan, and white
     robot.setBeak(100, 0, 100)
     sleep(1)
     robot.setBeak(0, 100, 100)
